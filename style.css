@@ -66,8 +66,18 @@
 
 /* Main Content  */
 
-.content-container {
+.main-container {
   background-color: aqua;
   width: 65%;
   margin: 0 auto;
+}
+.main-container h1{
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    width: 550px;
+    margin: auto;
+    
+
 }
