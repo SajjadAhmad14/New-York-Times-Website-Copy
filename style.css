@@ -1,3 +1,47 @@
-.navigate{
-    display: flex;
+/* Container config */
+
+.container {
+  /* background-color: aqua; */
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+}
+
+.navigate {
+  display: flex;
+}
+
+.icon,
+.search,
+.cosmos {
+  position: relative;
+  left: 8%;
+  /* flex: 1;  */
+  font-size: 14.25px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  margin-right: 20px;
+  /* text-decoration: none; */
+  margin-top: 8px;
+}
+
+.cosmos a {
+  text-decoration: none;
+}
+.cosmos a:visited {
+  color: initial;
+}
+
+.cosmos a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.buttons {
+  position: relative;
+  right: 8%;
+  margin-top: 8px;
 }
