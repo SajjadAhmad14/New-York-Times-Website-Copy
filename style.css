@@ -1,14 +1,21 @@
-/* Container config */
+/* Navigation Bar Container Config */
 
-.container {
-  /* background-color: aqua; */
+.navbar-container {
   width: 100%;
   margin: 0 auto;
-  border: 1px solid lightgray;
+  /* background-color: aqua; */
 }
+
+/* Navigation Bar */
 
 .navigate {
   display: flex;
+  height: 25%;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  padding-bottom: 0.2%;
 }
 
 .icon,
@@ -16,12 +23,10 @@
 .cosmos {
   position: relative;
   left: 8%;
-  /* flex: 1;  */
   font-size: 14.25px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   margin-right: 20px;
-  /* text-decoration: none; */
   margin-top: 8px;
 }
 
@@ -40,18 +45,29 @@
   margin: 0 auto;
 }
 
-
-.subscribe button{
-    background-color: rgb(50, 104, 145);
-    position: relative;
-    right: 8%;
-    margin-top: 8px;
-
+.buttons {
+  position: relative;
+  right: 8%;
 }
-.log-in button{
 
-    background-color: rgb(50, 104, 145);
-    position: relative;
-   right: 8%;
-   margin-top: 8px;
+.buttons button {
+  background-color: #567b95;
+  margin-top: 2px;
+  border: 1px solid #346991;
+  border-radius: 3px;
+  vertical-align: middle;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  color: white;
+  padding: 11px 12px 8px;
+}
+
+/* Main Content  */
+
+.content-container {
+  background-color: aqua;
+  width: 65%;
+  margin: 0 auto;
 }
