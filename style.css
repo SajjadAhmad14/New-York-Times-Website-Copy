@@ -40,8 +40,18 @@
   margin: 0 auto;
 }
 
-.buttons {
-  position: relative;
-  right: 8%;
-  margin-top: 8px;
+
+.subscribe button{
+    background-color: rgb(50, 104, 145);
+    position: relative;
+    right: 8%;
+    margin-top: 8px;
+
+}
+.log-in button{
+
+    background-color: rgb(50, 104, 145);
+    position: relative;
+   right: 8%;
+   margin-top: 8px;
 }
