@@ -10,8 +10,9 @@
 
 .navigate {
   display: flex;
-  height: 25%;
-  position: sticky;
+  height: 4.5%;
+  position: fixed;
+  width: 100%;
   top: 0;
   border-bottom: 1px solid lightgray;
   background-color: white;
@@ -22,7 +23,7 @@
 .search,
 .cosmos {
   position: relative;
-  left: 8%;
+  left: 1%;
   font-size: 14.25px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
@@ -45,9 +46,13 @@
   margin: 0 auto;
 }
 
+.logo img {
+  height: 35px;
+}
+
 .buttons {
   position: relative;
-  right: 8%;
+  right: 1%;
 }
 
 .buttons button {
@@ -64,20 +69,54 @@
   padding: 11px 12px 8px;
 }
 
-/* Main Content  */
+/* Title  */
 
 .main-container {
   background-color: aqua;
   width: 65%;
-  margin: 0 auto;
+  margin: 5% auto;
 }
-.main-container h1{
-    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 700;
-    width: 550px;
-    margin: auto;
-    
+.main-container h1 {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 700;
+  width: 550px;
+  margin: 0 auto 15px auto;
+}
 
+.space img {
+  max-width: 120%;
+  margin-left: -100px;
+  display: flex;
+  justify-content: center;
+}
+
+.space figcaption {
+  position: absolute;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 0.875rem;
+  color: gray;
+  margin-left: -100px;
+  margin-right: 500px;
+}
+
+/* Main Content */
+
+.content h2 {
+  margin: 50px auto;
+
+  width: 550px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons p {
+  align-items: flex-start;
+}
+
+.social-icons img {
+  align-items: flex-end;
 }
