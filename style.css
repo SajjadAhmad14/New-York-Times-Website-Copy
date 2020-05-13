@@ -33,9 +33,7 @@
 
 .cosmos a {
   text-decoration: none;
-  text-decoration-color: black;
 }
-
 .cosmos a:visited {
   color: initial;
 }
@@ -78,7 +76,6 @@
   width: 65%;
   margin: 5% auto;
 }
-
 .main-container h1 {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 30px;
@@ -107,23 +104,30 @@
 /* Main Content */
 .content-container {
   background-color: aqua;
-  width: 50%;
+  width: 40%;
   margin: 5% auto;
-
 }
-
-
-
 .content h2 {
   margin: 50px auto;
 
+  /* width: 550px; */
 }
 
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
 
 .social-icons .date {
-  display: inline-block;
+  
+  background-color: green;
+  /* flex: 1; */
 }
 
 .social-icons .socials {
-  display: inline-block;
+ 
+  background-color: greenyellow;
+
 }
