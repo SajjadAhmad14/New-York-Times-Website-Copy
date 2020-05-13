@@ -130,6 +130,7 @@
   color: #333333;
   line-height: 30px;
   font-weight: 400;
+  font-size: 1.25rem;
 }
 .content-container p a:link {
   color: #326891;
@@ -141,7 +142,7 @@
 /* Inflation Wrapper */
 
 .inflation-wrapper {
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
   width: 63%;
   margin: 0 auto;
 }
@@ -158,9 +159,28 @@
 .inflation-wrapper p {
   font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
   font-weight: 400;
-  font-size: larger;
+  font-size: small;
+  margin-top: 5px;
 }
+
+/* Main Content Continuation */
 
 #bottom-separator {
   width: 7%;
+}
+
+#video {
+  width: 100%;
+  height: 50%;
+}
+
+.caption {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  color: #666;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+.caption span {
+  font-size: 80%;
 }
