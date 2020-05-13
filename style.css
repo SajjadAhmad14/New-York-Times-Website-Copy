@@ -103,31 +103,37 @@
 
 /* Main Content */
 .content-container {
-  background-color: aqua;
   width: 40%;
   margin: 5% auto;
 }
 .content h2 {
   margin: 50px auto;
-
-  /* width: 550px; */
 }
 
 .social-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-}
-
-.social-icons .date {
-  
-  background-color: green;
-  /* flex: 1; */
 }
 
 .social-icons .socials {
- 
-  background-color: greenyellow;
-
+}
+.socials img {
+  width: 35px;
+  height: 35px;
+}
+.socials a:link {
+  text-decoration: none;
+}
+.content-container p {
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  color: #333333;
+  line-height: 30px;
+  font-weight: 400;
+}
+.content-container p a:link {
+  color: #326891;
+}
+.content-container p a:hover {
+  text-decoration: none;
 }
