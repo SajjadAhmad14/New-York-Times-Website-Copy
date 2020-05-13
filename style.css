@@ -33,7 +33,9 @@
 
 .cosmos a {
   text-decoration: none;
+  text-decoration-color: black;
 }
+
 .cosmos a:visited {
   color: initial;
 }
@@ -76,6 +78,7 @@
   width: 65%;
   margin: 5% auto;
 }
+
 .main-container h1 {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 30px;
@@ -102,21 +105,25 @@
 }
 
 /* Main Content */
+.content-container {
+  background-color: aqua;
+  width: 50%;
+  margin: 5% auto;
+
+}
+
+
 
 .content h2 {
   margin: 50px auto;
 
-  width: 550px;
 }
 
-.social-icons {
-  display: flex;
+
+.social-icons .date {
+  display: inline-block;
 }
 
-.social-icons p {
-  align-items: flex-start;
-}
-
-.social-icons img {
-  align-items: flex-end;
+.social-icons .socials {
+  display: inline-block;
 }
