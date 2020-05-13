@@ -72,7 +72,7 @@
 /* Title  */
 
 .main-container {
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 65%;
   margin: 5% auto;
 }
@@ -104,10 +104,12 @@
 /* Main Content */
 .content-container {
   width: 40%;
-  margin: 5% auto;
+  margin: 2% auto;
+  /* background-color: lightgreen; */
 }
+
 .content h2 {
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 .social-icons {
@@ -116,8 +118,6 @@
   align-items: center;
 }
 
-.social-icons .socials {
-}
 .socials img {
   width: 35px;
   height: 35px;
@@ -136,4 +136,31 @@
 }
 .content-container p a:hover {
   text-decoration: none;
+}
+
+/* Inflation Wrapper */
+
+.inflation-wrapper {
+  background-color: lightgreen;
+  width: 63%;
+  margin: 0 auto;
+}
+
+.inflation-wrapper img {
+  width: 100%;
+}
+
+.inflation-wrapper h2 {
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+  font-weight: 700;
+}
+
+.inflation-wrapper p {
+  font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
+  font-weight: 400;
+  font-size: larger;
+}
+
+#bottom-separator {
+  width: 7%;
 }
