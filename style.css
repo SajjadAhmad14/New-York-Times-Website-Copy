@@ -17,6 +17,7 @@
   border-bottom: 1px solid lightgray;
   background-color: white;
   padding-bottom: 0.2%;
+  min-height: 35px;
 }
 
 .icon,
@@ -43,11 +44,11 @@
 }
 
 .logo {
-  margin: 0 auto;
+  margin: 4px auto;
 }
 
 .logo img {
-  height: 35px;
+  height: 30px;
 }
 
 .buttons {
@@ -169,7 +170,7 @@
   width: 7%;
 }
 
-#video {
+iframe {
   width: 100%;
   height: 50%;
 }
@@ -183,4 +184,16 @@
 
 .caption span {
   font-size: 80%;
+}
+
+/* Telescope Wrapper */
+
+.telescope-wrapper {
+  width: 120%;
+  margin-left: -10%;
+}
+
+.telescope {
+  width: 100%;
+  margin: 0 auto;
 }
