@@ -35,6 +35,7 @@
 .cosmos a {
   text-decoration: none;
 }
+
 .cosmos a:visited {
   color: initial;
 }
@@ -77,6 +78,7 @@
   width: 65%;
   margin: 5% auto;
 }
+
 .main-container h1 {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 30px;
@@ -123,9 +125,11 @@
   width: 35px;
   height: 35px;
 }
+
 .socials a:link {
   text-decoration: none;
 }
+
 .content-container p {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   color: #333333;
@@ -133,9 +137,11 @@
   font-weight: 400;
   font-size: 1.25rem;
 }
+
 .content-container p a:link {
   color: #326891;
 }
+
 .content-container p a:hover {
   text-decoration: none;
 }
@@ -196,4 +202,29 @@ iframe {
 .telescope {
   width: 100%;
   margin: 0 auto;
+}
+
+.caption a:hover {
+  text-decoration: none;
+}
+
+.content-container .buttons button {
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-left: 6px;
+}
+
+.content-container .social-icons div {
+  margin-top: 20px;
+}
+
+.popular-content-container {
+  border-top: 1px solid rgb(165, 133, 133);
+  width: 90%;
+  margin: auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 5rem 5rem 5rem;
 }
