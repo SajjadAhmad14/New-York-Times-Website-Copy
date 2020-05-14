@@ -1,3 +1,11 @@
+/* Variables */
+
+:root {
+  --franklin: nyt-franklin, helvetica, arial, sans-serif;
+  --cheltenham: nyt-cheltenham, georgia, "times new roman", times, serif;
+  --imperial: nyt-imperial, georgia, "times new roman", times, serif;
+}
+
 /* Navigation Bar Container Config */
 
 .navbar-container {
@@ -26,7 +34,7 @@
   position: relative;
   left: 1%;
   font-size: 14.25px;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: var(--franklin);
   font-weight: 700;
   margin-right: 20px;
   margin-top: 8px;
@@ -63,7 +71,7 @@
   border: 1px solid #346991;
   border-radius: 3px;
   vertical-align: middle;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: var(--franklin);
   font-size: 11px;
   line-height: 11px;
   font-weight: 700;
@@ -80,7 +88,7 @@
 }
 
 .main-container h1 {
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-family: var(--cheltenham);
   font-size: 30px;
   font-style: italic;
   font-weight: 700;
@@ -97,7 +105,7 @@
 
 .space figcaption {
   position: absolute;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-family: var(--imperial);
   font-size: 0.875rem;
   color: gray;
   margin-left: -100px;
@@ -131,7 +139,7 @@
 }
 
 .content-container p {
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-family: var(--imperial);
   color: #333333;
   line-height: 30px;
   font-weight: 400;
@@ -159,12 +167,12 @@
 }
 
 .inflation-wrapper h2 {
-  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+  font-family: var(--imperial);
   font-weight: 700;
 }
 
 .inflation-wrapper p {
-  font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
+  font-family: var(--cheltenham);
   font-weight: 400;
   font-size: small;
   margin-top: 5px;
@@ -182,7 +190,7 @@ iframe {
 }
 
 .caption {
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-family: var(--imperial);
   color: #666;
   font-size: 0.875rem;
   line-height: 1.125rem;
@@ -220,11 +228,45 @@ iframe {
 
 .popular-content-container {
   border-top: 1px solid rgb(165, 133, 133);
-  width: 90%;
+  width: 57%;
   margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  background-color: beige;
+  grid-gap: 2%;
+  margin-left: 10%;
+  row-gap: 13%;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 5rem 5rem 5rem;
+.popular-content-container img {
+  width: 100%;
+}
+
+.grid-title-wrapper {
+  width: 57%;
+  /* background-color: burlywood; */
+  margin-left: 10%;
+  border-top: 1.1px solid black;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
+.grid-title-wrapper div {
+  margin-top: 2%;
+}
+
+.grid-title-wrapper .cosmos {
+  left: 0;
+}
+
+.popular-content-container .right {
+  float: right;
+}
+
+.popular-content-container h3 {
+  margin-bottom: 1%;
+  font-family: var(--cheltenham);
+  font: 18px;
+  font-size: 1.125rem;
+  font-weight: 500;
 }
