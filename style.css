@@ -228,10 +228,10 @@ iframe {
 
 .popular-content-container {
   border-top: 1px solid rgb(165, 133, 133);
-  width: 57%;
-  margin: auto;
+  width: 80%;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  grid-template-columns: repeat(4, minmax(auto, 1fr));
   background-color: beige;
   grid-gap: 2%;
   margin-left: 10%;
