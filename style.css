@@ -353,14 +353,21 @@ iframe {
   display: inline;
   font-weight: bold;
   font-size: 13px;
+<<<<<<< HEAD
   line-height: 30px;
+=======
+>>>>>>> development
   
 }
 
 .footer-item8 img{
   width: 14px;
   /* padding-top: 1px; */
+<<<<<<< HEAD
   vertical-align: middle ;
+=======
+  vertical-align: bottom ;
+>>>>>>> development
 }
 
 /* .footer-item8 h3, .footer-item8 div , .footer-item8 img, .footer-item8 h2{
