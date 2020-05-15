@@ -227,15 +227,10 @@ iframe {
 }
 
 .popular-content-container {
-  /* border-top: 1px solid rgb(165, 133, 133); */
   width: 80%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, minmax(auto, 1fr));
-  /* background-color: beige; */
-  /* grid-column: 5%; */
-  /* grid-row: 0%; */
-  /* margin-left: 10%; */
   column-gap: 2%;
   grid-auto-rows: minmax(auto, auto);
 }
@@ -277,6 +272,7 @@ iframe {
   grid-row: 1;
   grid-column: 1/4;
 }
+
 .item12 {
   grid-row: 1 / span 4;
   grid-column: 4;
@@ -299,6 +295,7 @@ iframe {
   border-bottom: 1px solid lightgray;
   padding-bottom: 4%;
 }
+
 .most-popular-wrapper .grid-title-wrapper {
   /* background-color: red; */
   /* width: 100%; */
@@ -306,6 +303,24 @@ iframe {
   padding-bottom: 4%;
   padding-top: 4%;
 }
+
 .popular-last-item h3 {
   border-bottom: none;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(auto, 1fr));
+  grid-template-rows: repeat(2, minmax(auto, 100%));
+  width: 80%;
+  margin: 50px auto;
+  /*grid-auto-rows: minmax(auto, auto);*/
+  border-top: 2px double #E2E2E2;
+
+}
+
+.row1 {
+  grid-row: 1;
+  grid-column: 1/6;
+  left: 0;
 }
