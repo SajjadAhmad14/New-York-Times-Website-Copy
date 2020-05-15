@@ -349,6 +349,19 @@ iframe {
   grid-row: 2/ span 4;
 }
 
+.footer-item8 p{
+  display: inline;
+  font-weight: bold;
+  font-size: 13px;
+  
+}
+
+.footer-item8 img{
+  width: 14px;
+  /* padding-top: 1px; */
+  vertical-align: bottom ;
+}
+
 /* .footer-item8 h3, .footer-item8 div , .footer-item8 img, .footer-item8 h2{
   font-size: xx-small;
   height: auto;
@@ -370,7 +383,7 @@ iframe {
   justify-content: space-between;
   font-size: xx-small;
   width: 80%;
-  margin: 50px auto;
+  margin: 0 0 50px 9%;
   
 }
 
