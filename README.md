@@ -4,7 +4,8 @@
 
 ![screenshot](./images/nytimes.png)
 
-The project is a Sign up of the Mint Webpage, we created a form with various types of inputs (phone, email, password) and a button with a type of submit.
+Live Demo
+https://rawcdn.githack.com/SajjadAhmad14/New-York-Times-Website-Copy/8d711c098606a00c7e3303dfefbddb4abb3b9dd6/index.html
 
 ## Built With
 
@@ -15,9 +16,9 @@ The project is a Sign up of the Mint Webpage, we created a form with various typ
 
 👤 **Author1**
 
-- Github: [@yahir91](https://github.com/yahir91)
-- Twitter: [@YahirCardona3](https://twitter.com/YahirCardona3)
-- Linkedin: [linkedin](https://www.linkedin.com/in/osmar-yahir-cardona-reyes-54b40b1a7/)
+- Github: [SajjadAhmad14](https://github.com/SajjadAhmad14)
+- Twitter: [Sajjad_Ahmad14](https://twitter.com/Sajjad_Ahmad14)
+- Linkedin: [linkedin](https://www.linkedin.com/in/sajjad-ahmad-86102117a/)
 
 👤 **Author2**
 
@@ -29,7 +30,7 @@ The project is a Sign up of the Mint Webpage, we created a form with various typ
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/e71az/HTML-Forms/issues).
+Feel free to check the [Issue page: https://github.com/SajjadAhmad14/New-York-Times-Website-Copy/issues).
 
 ## Show your support
 
