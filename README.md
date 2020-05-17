@@ -1,6 +1,6 @@
 # New York Times Website
 
-> In this project, we built a clone of the mint sign up page. We had to create a form with the correct input type and a submit button.
+> In this project we built a clone webpage of the NY Times page. We had to create a full article web page with buttons, navbar, content and footer using flexbox, grid and floats.
 
 ![screenshot](./images/nytimes.png)
 
