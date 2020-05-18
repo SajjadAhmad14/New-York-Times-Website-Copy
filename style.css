@@ -39,6 +39,11 @@
   margin-top: 8px;
 }
 
+.popular-content-container a {
+  text-decoration: none;
+  color: black;
+}
+
 .cosmos a {
   text-decoration: none;
 }
@@ -133,6 +138,11 @@
 
 .socials a:link {
   text-decoration: none;
+}
+
+.popular-content-container a:hover {
+  text-decoration: none;
+  color: rgb(116, 97, 97);
 }
 
 .content-container p {
@@ -362,14 +372,4 @@ iframe {
   font-size: xx-small;
   width: 80%;
   margin: 0 0 50px 9%;
-}
-
-.popular-content-container a {
-  text-decoration: none;
-  color: black;
-}
-
-.popular-content-container a:hover {
-  text-decoration: none;
-  color: grey;
 }
