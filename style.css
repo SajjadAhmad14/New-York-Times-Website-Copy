@@ -363,3 +363,13 @@ iframe {
   width: 80%;
   margin: 0 0 50px 9%;
 }
+
+.popular-content-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.popular-content-container a:hover {
+  text-decoration: none;
+  color: grey;
+}
