@@ -36,6 +36,7 @@ Feel free to check the [Issue page: https://github.com/SajjadAhmad14/New-York-Ti
 
 Give a ⭐️ if you like this project!
 
-## 📝 License
+## How To Clone The Site
 
-This project is [MIT](lic.url) licensed.
+1: Go to https://github.com/SajjadAhmad14/New-York-Times-Website-Copy.git
+2: Open index.html file in your favourite browser.
