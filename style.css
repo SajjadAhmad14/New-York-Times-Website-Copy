@@ -25,6 +25,7 @@
   background-color: white;
   padding-bottom: 0.2%;
   min-height: 35px;
+  z-index: 1;
 }
 
 .icon,
@@ -319,7 +320,7 @@ iframe {
   grid-template-columns: repeat(6, minmax(auto, 1fr));
   grid-template-rows: repeat(2, minmax(auto, 100%));
   width: 80%;
-  margin: 50px auto;
+  margin: 50px auto 10px auto;
   border-top: 2px double #e2e2e2;
   border-bottom: 1px solid lightgray;
   padding-bottom: 20px;
@@ -362,14 +363,39 @@ iframe {
   line-height: 15px;
 }
 
-.footer-flex-container {
-  border-bottom: 1px solid lightgray;
-}
-
 .footer-flex-container .cosmos {
   display: flex;
   justify-content: space-between;
   font-size: xx-small;
   width: 80%;
-  margin: 0 0 50px 9%;
+  margin: 0 0 70px 9%;
+}
+
+.bottom-bar-wrapper {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  justify-content: flex-end;
+  justify-content: space-around;
+  border-top: 0.5px solid black;
+  background-color: white;
+}
+
+.bottom-bar-center {
+  flex-grow: 2;
+  text-align: center;
+  margin-left: 25%;
+  font-size: 13px;
+}
+
+.bottom-bar-right {
+  flex-grow: 1;
+  font-weight: 700;
+  font-size: 13px;
+  bottom: 7px;
+}
+
+.bottom-bar-right img {
+  margin-left: 30px;
 }
